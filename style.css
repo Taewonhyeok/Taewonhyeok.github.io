@@ -1,0 +1,9 @@
+/* Tailwind CSS CDN 임포트 */
+/* 이 한 줄로 Tailwind CSS의 모든 유틸리티 클래스를 사용할 수 있습니다. */
+@import url('https://cdn.tailwindcss.com');
+
+/* Inter 폰트 적용 (필요시 구글 폰트에서 Inter 폰트 임포트 필요) */
+/* 웹 폰트를 사용하려면 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); 와 같이 추가해야 합니다. */
+body {
+    font-family: 'Inter', sans-serif;
+}
